@@ -1,0 +1,33 @@
+[
+  {
+    "header": "en-US, fr-CA, fr-FR",
+    "supported_languages": [
+      "fr-FR",
+      "en-US"
+    ],
+    "expected": [
+      "en-US",
+      "fr-FR"
+    ]
+  },
+  {
+    "header": "fr-CA, fr-FR",
+    "supported_languages": [
+      "en-US",
+      "fr-FR"
+    ],
+    "expected": [
+      "fr-FR"
+    ]
+  },
+  {
+    "header": "en-US",
+    "supported_languages": [
+      "en-US",
+      "fr-CA"
+    ],
+    "expected": [
+      "en-US"
+    ]
+  }
+]
